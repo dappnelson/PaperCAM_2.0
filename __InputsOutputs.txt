@@ -1,0 +1,9 @@
+2014-01-16
+
+1. Interpolate the points/curve: <Profile_Curve.eps>
+    a. Sample by thousandths
+2. Round the points: <STOS_Curves.sbp> to the thousandths
+3. For every M3 point in <STOS_Curves.sbp>, use the X-value and look
+up the corresponding Y-value (aka Z-value) in <Profile_Curves.eps>
+    a. Insert the Y-value (aka Z-value) into the Z-position of the line
+    in <STOS_Curves-3D.sbp>
